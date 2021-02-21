@@ -28,7 +28,7 @@ async def progress_for_pyrogram(
             ''.join(["░" for i in range(20 - math.floor(percentage / 5))]),
             round(percentage, 2))
 
-        tmp = progress + "<b>{0} of {1}</b>\n\n<b>Speed 😐: {2}/s</b>\n\n<b>ETA ⏱: {3}</b>\n\n<b>Dont complain us about speed! if you want good speed then donate @Danny</b>".format(
+        tmp = progress + "<b>{0} of {1}</b>\n\n<b>Speed 😐: {2}/s</b>\n\n<b>ETA ⏱: {3}</b>\n\n<b>Dont complain us about speed! if you want good speed then donate @Danny004</b>".format(
             humanbytes(current),
             humanbytes(total),
             humanbytes(speed),
