@@ -11,15 +11,21 @@ class Translation(object):
 
     HELP_USER = """Hai I'am Telegram URL Uploader bot..
     
-1. Send url [Link | New Name with Extension(mkv,mp4,avi etc)].
-2. Send Custom Thumbnail (Optional).
-3. Select the button.
-   SVideo - Give File as video with Screenshots
-   DFile  - Give File with Screenshots
-   Video  - Give File as video without Screenshots
-   DFile  - Give File without Screenshots
+<b>1. Send url [Link | New Name with Extension(mkv,mp4,avi etc)].</b>
 
-Support Group : @AnimeBotSupportGroup
+<b>2. Send Custom Thumbnail (Optional).</b>
+
+<b>3. Select the button.</b>
+   
+   <b>SVideo - Give File as video with Screenshots</b>
+   
+   <b>DFile  - Give File with Screenshots</b>
+   
+   <b>Video  - Give File as video without Screenshots</b>
+   
+   <b>File  - Give File without Screenshots</b>
+
+<b>Support Group : @AnimeBotSupportGroup</b>
 """
 
     FORMAT_SELECTION = """Select the desired format: <a href='{}'>file size might be approximate</a>
@@ -41,7 +47,7 @@ URL | newfilename | username | password"""
 
     RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 1.95GB due to Telegram API limitations."
 
-    SAVED_CUSTOM_THUMB_NAIL = "<b>Thumbnail Permanently saved✔️</b> \n\nDo /Clearthumbnail to delete"
+    SAVED_CUSTOM_THUMB_NAIL = "<b>Thumbnail Permanently saved✔️</b> \n\nSend /Deletethumbnail to delete"
 
     DEL_ETED_CUSTOM_THUMB_NAIL = "<b>Thumbnail cleared ✔️</b>"
 
