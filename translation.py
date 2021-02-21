@@ -1,19 +1,17 @@
 class Translation(object):
 
-    START_TEXT = """Hello,
+    START_TEXT = """Hi, This is a Itachi❤️ <b>[Telegram Upload Bot]</b>
 
-This is a Telegram URL Upload Bot!
+<i>Send Me Any Direct Download URL Link, I Will Upload To Telegram As File/Video</i>
 
-<b>Please send me any Direct download URL link, I can upload to telegram as File/Video</b>
+<i>For more details send /help</i>
 
-/help for more details..
-
-Support Group : @TroJanzSupport
+<b>Made In India 🇮🇳</b?>
 """
 
-    HELP_USER = """Hai I'am a URL Uploader bot..
+    HELP_USER = """Hai I'am Telegram URL Uploader bot..
     
-1. Send url (Link | New Name with Extension).
+1. Send url [Link | New Name with Extension(mkv,mp4,avi etc)].
 2. Send Custom Thumbnail (Optional).
 3. Select the button.
    SVideo - Give File as video with Screenshots
@@ -21,7 +19,7 @@ Support Group : @TroJanzSupport
    Video  - Give File as video without Screenshots
    DFile  - Give File without Screenshots
 
-Support Group : @TroJanzSupport
+Support Group : @AnimeBotSupportGroup
 """
 
     FORMAT_SELECTION = """Select the desired format: <a href='{}'>file size might be approximate</a>
@@ -33,19 +31,19 @@ You can use /deletethumbnail to delete the auto-generated thumbnail."""
 URL | newfilename | username | password"""
 
 
-    UPGRADE_TEXT = "<b>👉 Create own Clone Bot.. </b>  \n\n<a href='https://github.com/prgofficial/URLuploader-With-Hotstar'>Click here, Fork and deploy!!</a>"
+    UPGRADE_TEXT = "I Thank @PrgOfficial for his \n\n<a href='https://github.com/prgofficial/URLuploader-With-Hotstar'>Open source Code</a>"
     
-    DOWNLOAD_START = "Trying to download your file..."
+    DOWNLOAD_START = "<code>Downloading..📥</code>"
     
-    UPLOAD_START = "Uploading now.."
+    UPLOAD_START = "<code>Uploading..📤</code>"
     
     AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Downloaded in {} seconds. \n\nUploaded in {} seconds."
 
     RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 1.95GB due to Telegram API limitations."
 
-    SAVED_CUSTOM_THUMB_NAIL = "Custom thumbnail saved. This will be permanent.\n\nUse /deletethumbnail to clear it."
+    SAVED_CUSTOM_THUMB_NAIL = "<b>Thumbnail Permanenty saved✔️</b> \n\nDo /Clearthumbnail to delete"
 
-    DEL_ETED_CUSTOM_THUMB_NAIL = "Custom thumbnail cleared succesfully."
+    DEL_ETED_CUSTOM_THUMB_NAIL = "<b>Thumbnail cleared ✔️</b>"
 
     CUSTOM_CAPTION_UL_FILE = " "
 
