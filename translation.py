@@ -31,7 +31,7 @@ You can use /deletethumbnail to delete the auto-generated thumbnail."""
 URL | newfilename | username | password"""
 
 
-    UPGRADE_TEXT = "I Thank @PrgOfficial for his \n\n<a href='https://github.com/prgofficial/URLuploader-With-Hotstar'>Open source Code</a>"
+    UPGRADE_TEXT = "I Thank @PrgOfficial for his <a href='https://github.com/prgofficial/URLuploader-With-Hotstar'>Open source Code</a>"
     
     DOWNLOAD_START = "<code>Downloading..📥</code>"
     
@@ -41,7 +41,7 @@ URL | newfilename | username | password"""
 
     RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 1.95GB due to Telegram API limitations."
 
-    SAVED_CUSTOM_THUMB_NAIL = "<b>Thumbnail Permanenty saved✔️</b> \n\nDo /Clearthumbnail to delete"
+    SAVED_CUSTOM_THUMB_NAIL = "<b>Thumbnail Permanently saved✔️</b> \n\nDo /Clearthumbnail to delete"
 
     DEL_ETED_CUSTOM_THUMB_NAIL = "<b>Thumbnail cleared ✔️</b>"
 
